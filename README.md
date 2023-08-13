@@ -4,13 +4,13 @@ A simple project on a chat application using Socket.io with Node.js
 To run the project:
 
 cd ./client/Chat_App
-`npm install
-npm run dev`
+`npm install`
+`npm run dev`
 
 In another terminal:
-`cd ./server
-npm install
-npm run start`
+`cd ./server`
+`npm install`
+`npm run start`
 
 How the project works:
 
