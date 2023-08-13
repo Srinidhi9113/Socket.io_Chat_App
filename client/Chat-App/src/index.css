@@ -1,0 +1,52 @@
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-box{
+    margin:1rem;
+}
+.input-box input{
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input-box button{
+    padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  opacity: 0.7;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.2s;
+}
+.input-box button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.input-box button:active{
+    transform: scale(0.95);
+}
+.message-box{
+    width: 80%;
+    height: 28rem;
+    border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1aa;
+  overflow-y:auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+.message-box h2{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding: 1rem;
+}
